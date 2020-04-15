@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|Yatra+One&display=swap");
+body {
+  background-color: #595959;
+  width: 60%;
+  margin: 0px auto;
+  box-shadow: 0px 0px 10px 12px #595959;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+header {
+  background-color: black;
+  padding: 5em 1.5em;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Yatra One", sans-serif;
+}
+header h1 {
+  color: white;
+  font-size: 6vh;
+}
+nav {
+  background-color: #595959;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3vh;
+  padding: 2vh 0;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+nav li,
+.info li {
+  list-style: none;
+}
+nav a:hover {
+  color: #66ff33;
+  text-shadow: 0 0 10px #ffffff, 2px 2px 2px rgba(102, 255, 51, 0);
+}
+nav a {
+  color: #ccc;
+  text-decoration: none;
+}
+footer {
+  background-color: black;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  color: white;
+}
+.container {
+  background-color: gray;
+  padding: 3%;
+  overflow: auto;
+}
+.poster,
+.info,
+.comment,
+.trailer,
+.rank,
+.NADrank {
+  float: left;
+}
+.poster::after,
+.info::after,
+.comment::after,
+.trailer::after,
+.rank::after,
+.poster::before,
+.info::before,
+.comment::before,
+.trailer::before,
+.rank::before,
+.NADrank::before,
+.NADrank::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.poster {
+  width: 40%;
+  padding: 3%;
+}
+.info {
+  width: 60%;
+  padding: 3%;
+}
+.info ul {
+  padding-top: 6vh;
+  font-size: 2vh;
+}
+.info h3 {
+  font-size: 4.3vh;
+  text-align: center;
+}
+.info p {
+  font-size: 2vh;
+  font-weight: lighter;
+  text-align: center;
+}
+.poster img {
+  width: 100%;
+}
+.trailer {
+  position: relative;
+  left: 3%;
+  width: 93%;
+  padding: 3% 3% 49.6% 3%;
+  height: 0;
+}
+.trailer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.comment {
+  width: 100%;
+  padding: 3%;
+}
+.comment h4 {
+  font-size: 2.5vh;
+}
+.comment p {
+  font-size: 1.8vh;
+  text-align: justify;
+}
+.rank {
+  display: flex;
+  width: 100%;
+  padding: 3%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.rank img {
+  width: 6vh;
+}
+.NADrank {
+  width: 100%;
+  padding: 3%;
+}

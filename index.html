@@ -1,90 +1,160 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Seriály co jsem viděl</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Osobní web 1" />
-    <meta name="keywords" content="PGV, SPŠ Ostrov, Tomáš Stejskal" />
-    <meta name="author" content="Tomáš Stejskal" />
-    <meta name="robots" content="all" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="" rel="shortcut icon" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Osobní web Tomáše Stejskala</h1>
+      <h1>Seriály</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="1ja.html">O mně</a></li>
-        <li><a href="2serialy.html">Seriály</a></li>
-        <li><a href="3hry.html">Hry</a></li>
-        <li><a href="4zajmy.html">Záliby</a></li>
-        <li><a href="5plany.html">Budoucnost</a></li>
-      </ul>
-    </nav>
     <section>
-      <!-- Band of Brothers -->
-      <div class="container">
-        <div class="poster">
-          <img
-            src="pics/posters/BandofBrothers.jpg"
-            alt="Plakát seriálu Band of Brothers"
-          />
+      <div class="series-container-right">
+        <div class="series-name">
+          <img class="series-logo" src="the-witcher.png" alt="" />
+          <p>Akční | Dobrodružný | Drama | Fantasy</p>
         </div>
-        <div class="info">
-          <div class="name">
-            <h3>Band of Brothers</h3>
-            <p>Válečný / Drama / Historický</p>
-          </div>
-          <div class="numbers">
-            <ul>
-              <li><b>Počet sérií:</b> 1</li>
-              <li><b>Počet dílů:</b> 10</li>
-              <li><b>Délka dílů:</b> 49–70 min</li>
-              <li><b>Oblíbená postava:</b> Denver "Bull" Randleman</li>
-              <li><b>Oblíbený díl:</b> Day of Days</li>
-            </ul>
-          </div>
+        <div class="series-description">
+          Geralt z Rivie, nájemný zmutovaný lovec příšer, cestuje za svým osudem
+          bouřlivým světem, kde lidé jsou často ohavnější než různé bestie.
         </div>
-        <div class="rankOP">
-          <h2>Hodnocení</h2>
-          <div class="rank">
-            <div class="csfd">
-              <img src="pics/logos/csfd.png" alt="Logo stránky ČSFD" />
-              <p>100%</p>
-            </div>
-            <div class="imdb">
-              <img src="pics/logos/imdb.png" alt="Logo stránky IMDB" />
-              <p>100%</p>
-            </div>
-            <div class="edna">
-              <img src="pics/logos/edna.png" alt="Logo stránky Edna" />
-              <p>100%</p>
-            </div>
-            <div class="moje">
-              <img src="pics/logos/moje.jpg" alt="Obázek reprezentující mně" />
-              <p>100%</p>
-            </div>
-          </div>
-        </div>
-        <div class="trailer">
-          <iframe src="https://www.youtube.com/embed/zDBUooZQzgA"></iframe>
-        </div>
-        <div class="comment">
-          <h2 id="BandofBrothers">Můj komentář</h2>
-          <p>
-            Na seriál Band of Brothers jsem se koukal, kvůli jeho vysokému
-            hodnocení. A po jeho zhlédnutí musím říct, že si takové hodnocení
-            opravdu zaslouží. Myslím si, že skvěle vystihuje atmosféru Druhé
-            světové války a ukazuje, co zažili výsadkáři 101. výsadkové divize.
-            Seriál je podle skutečných událostí a vychází z vyprávění veteránů.
-            Je velmi dobře natočený a skvěle zpracovaný.
-          </p>
+        <div class="series-info">
+          <table>
+            <tr>
+              <td class="table-bold">Počet sérií:</td>
+              <td class="gray">1</td>
+            </tr>
+            <tr>
+              <td class="table-bold">Počet dílů:</td>
+              <td class="gray">8</td>
+            </tr>
+            <tr>
+              <td class="table-bold">Délka dílů:</td>
+              <td class="gray">47-67 min</td>
+            </tr>
+            <tr>
+              <td class="table-bold">Oblíbená postava:</td>
+              <td class="gray">Jaskier</td>
+            </tr>
+            <tr>
+              <td class="table-bold">Oblíbený díl:</td>
+              <td class="gray">Of Banquets, Bastards and Burials</td>
+            </tr>
+          </table>
         </div>
       </div>
+      <div class="series-container-left">
+        <div class="trailer">
+          <iframe src="https://www.youtube.com/watch?v=ndl1W4ltcmg" frameborder="0"></iframe>
+        </div>
+      </div>
+      <div class="series-rank">
+        <div class="rank">
+          <img src="moje.png" alt="" />
+          <div class="moje">
+            <p>94%</p>
+          </div>
+        </div>
+        <div class="rank1">
+          <img src="csfd.png" alt="" />
+          <div class="csfd">
+            <p>79%</p>
+            <p class="csfd-extra">154. nejoblíbenější seriál</p>
+          </div>
+        </div>
+        <div class="rank2">
+          <img src="imdb.png" alt="" />
+          <div class="imdb">
+            <p>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke="goldenrod"
+                fill="goldenrod"
+              >
+                <path
+                  d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"
+                />
+              </svg>
+              8,3/10
+            </p>
+          </div>
+        </div>
+        <div class="rank3">
+          <img src="edna.png" alt="" />
+          <div class="edna">
+            <svg
+              class="edna-star"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="
+              #b0aa9f"
+            >
+              <path
+                d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"
+              />
+            </svg>
+            <svg
+              class="edna-star"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="
+              #b0aa9f"
+            >
+              <path
+                d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"
+              />
+            </svg>
+            <svg
+              class="edna-star"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="
+              #b0aa9f"
+            >
+              <path
+                d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"
+              />
+            </svg>
+            <svg
+              class="edna-star"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="
+              #b0aa9f"
+            >
+              <path
+                d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"
+              />
+            </svg>
+            <svg
+              class="edna-star"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="edna-star"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="
+              #b0aa9f"
+            >
+              <path
+                d="M12 5.173l2.335 4.817 5.305.732-3.861 3.71.942 5.27-4.721-2.524v-12.005zm0-4.586l-3.668 7.568-8.332 1.151 6.064 5.828-1.48 8.279 7.416-3.967 7.416 3.966-1.48-8.279 6.064-5.827-8.332-1.15-3.668-7.569z"
+              />
+            </svg>
+            <p>89/100</p>
+          </div>
+        </div>
     </section>
-    <footer>© Tomáš Stejskal</footer>
   </body>
 </html>

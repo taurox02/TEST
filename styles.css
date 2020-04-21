@@ -1,180 +1,217 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu|Yatra+One&display=swap");
-body {
-  background-color: #595959;
-  width: 60%;
-  margin: 0px auto;
-  box-shadow: 0px 0px 10px 12px #595959;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&family=Work+Sans:wght@300;400;500;600;700&display=swap");
+html {
+  background-color: rgb(26, 26, 26);
+  color: rgb(219, 218, 218);
 }
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.7rem;
 }
 header {
-  background-color: black;
-  padding: 5em 1.5em;
   text-align: center;
+  padding: 2%;
+  background-color: black;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Yatra One", sans-serif;
+.series-container-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 25%,
+      rgba(26, 26, 26, 0.5) 40%,
+      rgba(255, 255, 255, 0) 65%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(witcher1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 800px;
+  padding: 2%;
+  margin: 0 2%;
 }
-header h1 {
-  color: white;
-  font-size: 6vh;
+.series-container-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 45%,
+      rgba(26, 26, 26, 0.5) 60%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(witcher2.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  height: 800px;
+  padding: 2%;
+  margin: 0 2%;
 }
-nav {
-  background-color: #595959;
+.series-name {
+  color: rgb(133, 133, 133);
+  text-align: center;
+  padding: 5% 5% 1.5% 5%;
+  width: fit-content;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+}
+.series-name p {
+  padding-top: 1%;
+}
+.series-logo {
+  height: 100px;
+}
+.series-description {
+  max-width: 40%;
+  padding: 4% 2% 2% 2px;
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+}
+.series-info {
+  padding: 0.5% 0;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  max-width: 40%;
+  font-family: "Work Sans", sans-serif;
+}
+.series-info td {
+  padding: 2px 2px 2px 4px;
+}
+.table-bold {
+  font-weight: bold;
+}
+.table-grey {
+  color: rgb(133, 133, 133);
+}
+.series-rank {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 3vh;
-  padding: 2vh 0;
-}
-nav ul {
-  display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
-}
-nav li,
-.info li {
-  list-style: none;
-}
-nav a:hover {
-  color: #66ff33;
-  text-shadow: 0 0 10px #ffffff, 2px 2px 2px rgba(102, 255, 51, 0);
-}
-nav a {
-  color: #ccc;
-  text-decoration: none;
-}
-footer {
-  background-color: black;
-  padding: 0.5em 1.5em;
-  text-align: center;
-  color: white;
-}
-.container {
-  background-color: gray;
-  padding: 3%;
-  overflow: auto;
-}
-.poster,
-.info,
-.comment,
-.trailer,
-.rankOP {
-  float: left;
-}
-.poster::after,
-.info::after,
-.comment::after,
-.trailer::after,
-.rankOP::after,
-.poster::before,
-.info::before,
-.comment::before,
-.trailer::before,
-.rankOP::before {
-  content: "";
-  display: table;
-  clear: both;
-}
-.rankOP,
-.info,
-.poster,
-.comment,
-.trailer {
-  border: 2px solid red;
+  height: 240px;
   margin: 2%;
 }
-.poster {
-  width: 31%;
-  padding: 3%;
-}
-.rankOP {
-  width: 96%;
-  padding: 0% 3% 3% 3%;
-}
 .rank {
-  height: 10vh;
-  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+
+  max-width: fit-content;
+  height: 240px;
+  padding: 2%;
 }
-.info {
-  height: 471px;
-  width: 61%;
+.rank img {
+  width: 200px;
+}
+.moje {
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 5.5% 3%;
+  width: 200px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.rank1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  max-width: fit-content;
+  height: 240px;
+  padding: 2%;
+}
+.csfd {
+  background-color: #ba0305;
+  border-radius: 18px;
   padding: 3%;
-}
-.name {
-  width: 100%;
-}
-.name h3 {
-  font-size: 4.3vh;
+  width: 300px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
   text-align: center;
 }
-.name p {
-  font-size: 2vh;
-  font-weight: lighter;
+.rank1 img {
+  width: 300px;
+}
+.csfd-extra {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.rank2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  max-width: fit-content;
+  height: 240px;
+  padding: 2%;
+}
+.rank2 img {
+  width: 200px;
+}
+.imdb {
+  background-color: #333333;
+  border-radius: 9px;
+  padding: 5.5% 3%;
+  width: 200px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
   text-align: center;
 }
-.numbers {
-  width: 100%;
-  padding-top: 5%;
-  font-size: 1.25rem;
+.rank3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: fit-content;
+  height: 240px;
+  padding: 2%;
 }
-.poster img {
-  width: 100%;
-  height: 400px;
+.edna {
+  background-color: #313637;
+  border-radius: 5px;
+  padding: 3%;
+  width: 300px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.rank3 img {
+  width: 300px;
+}
+.edna-star {
+  height: 1rem;
 }
 .trailer {
   position: relative;
-  width: 96%;
-  padding: 3% 3% 50.75% 3%;
-  height: 0;
-}
-.trailer iframe {
-  border: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.comment {
-  width: 96%;
-  padding: 3%;
-}
-.comment h2 {
-  font-size: 3vh;
-}
-.comment p {
-  font-size: 1.25rem;
-  text-align: justify;
-}
-.rankOP img {
-  height: 8vh;
-}
-.rankOP h2 {
-  font-size: 3vh;
-  padding-bottom: 2%;
-}
-.csfd,
-.imdb,
-.edna,
-.moje {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  border: 2px solid black;
+  left: 50%;
 }

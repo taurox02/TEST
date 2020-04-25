@@ -25,15 +25,17 @@ header {
   padding: 2%;
   background-color: black;
 }
+/*Seriály - Hlavní containery*/
 .series-container-right,
 .series-container-left {
   background-repeat: no-repeat;
   background-size: contain;
   height: 800px;
   padding: 2%;
-  margin: 0 2%;
+  margin: 1% 2%;
 }
-.series-container-right {
+/*Band of Brothers*/
+.bandofbrothers-right {
   background-image: linear-gradient(
       to right,
       rgb(26, 26, 26) 0%,
@@ -48,16 +50,16 @@ header {
       rgba(26, 26, 26, 0.5) 20%,
       rgba(255, 255, 255, 0) 100%
     ),
-    url(images/backgrounds/witcher1.jpg);
+    url(images/backgrounds/bandofbrothers1.jpg);
   background-position: right;
 }
-.series-container-left {
+.bandofbrothers-left {
   background-image: linear-gradient(
       to left,
       rgb(26, 26, 26) 0%,
-      rgb(26, 26, 26) 25%,
-      rgba(26, 26, 26, 0.5) 40%,
-      rgba(255, 255, 255, 0) 65%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
       rgba(255, 255, 255, 0) 100%
     ),
     linear-gradient(
@@ -72,9 +74,225 @@ header {
       rgba(26, 26, 26, 0.5) 20%,
       rgba(255, 255, 255, 0) 100%
     ),
-    url(images/backgrounds/witcher2.jpg);
+    url(images/backgrounds/bandofbrothers2.jpg);
   background-position: left;
 }
+/*Black Mirror*/
+.blackmirror-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 30%,
+      rgba(26, 26, 26, 0.5) 45%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/blackmirror1.jpg);
+  background-position: right;
+}
+.blackmirror-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 30%,
+      rgba(26, 26, 26, 0.5) 45%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/blackmirror2.jpg);
+  background-position: left;
+}
+/*Bodyguard*/
+.bodyguard-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/bodyguard1.jpg);
+  background-position: right;
+}
+.bodyguard-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/bodyguard2.jpg);
+  background-position: left;
+}
+/*Carnival Row*/
+.carnivalrow-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/carnivalrow1.jpg);
+  background-position: right;
+}
+.carnivalrow-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/carnivalrow2.jpg);
+  background-position: left;
+}
+/*Dark*/
+.dark-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/dark1.jpg);
+  background-position: right;
+}
+.dark-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/dark2.jpg);
+  background-position: left;
+}
+/*Dr. House*/
+.drhouse-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/house1.jpg);
+  background-position: right;
+}
+.drhouse-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/house2.jpg);
+  background-position: left;
+}
+/*Seriály - Název*/
 .series-name {
   color: rgb(133, 133, 133);
   text-align: center;
@@ -86,9 +304,11 @@ header {
 .series-name p {
   padding-top: 1%;
 }
+/*Seriály - Logo*/
 .series-logo {
   height: 100px;
 }
+/*Seriály - Popis*/
 .series-description,
 .series-info {
   max-width: 40%;
@@ -114,6 +334,7 @@ header {
 .table-grey {
   color: rgb(133, 133, 133);
 }
+/*Seriály - Trailer*/
 .series-iframe-container {
   position: relative;
   width: 100%;
@@ -133,6 +354,7 @@ header {
   margin: 5% 0 0 50%;
   width: 40%;
 }
+/*Seriály - Komentář*/
 .series-comment {
   margin: 2% 2% 0 45%;
   max-width: 50%;
@@ -149,6 +371,7 @@ header {
   font-size: 2.2rem;
   font-weight: 400;
 }
+/*Seriály - Hodnocení*/
 .rank,
 .rank1,
 .rank2,
@@ -216,6 +439,7 @@ header {
 .edna-star {
   height: 0.8rem;
 }
+/*Seriály - Foto + Promo*/
 .series-foto {
   width: 40%;
 }

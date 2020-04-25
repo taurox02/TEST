@@ -292,6 +292,135 @@ header {
     url(images/backgrounds/house2.jpg);
   background-position: left;
 }
+/*Game of Thrones*/
+.gameofthrones-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/gameofthrones1.jpg);
+  background-position: right;
+}
+.gameofthrones-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 55%,
+      rgba(255, 255, 255, 0) 80%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/gameofthrones2.jpg);
+  background-position: left;
+}
+/*His Dark Materials*/
+.hisdarkmaterials-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/hisdarkmaterials1.jpg);
+  background-position: right;
+}
+.hisdarkmaterials-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/hisdarkmaterials2.jpg);
+  background-position: left;
+}
+/*Chernobyl*/
+.chernobyl-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 30%,
+      rgba(26, 26, 26, 0.5) 45%,
+      rgba(255, 255, 255, 0) 60%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/chernobyl1.jpg);
+  background-position: right;
+}
+.chernobyl-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/chernobyl2.jpeg);
+  background-position: left;
+}
 /*Seriály - Název*/
 .series-name {
   color: rgb(133, 133, 133);

@@ -32,7 +32,7 @@ header {
   background-size: contain;
   height: 800px;
   padding: 2%;
-  margin: 1% 2%;
+  margin: 2%;
 }
 /*Band of Brothers*/
 .bandofbrothers-right {
@@ -505,6 +505,694 @@ header {
       rgba(255, 255, 255, 0) 100%
     ),
     url(images/backgrounds/impulse2.png);
+  background-position: left;
+}
+/*In the Dark*/
+.inthedark-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 65%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/inthedark1.jpg);
+  background-position: right;
+}
+.inthedark-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/inthedark2.jpg);
+  background-position: left;
+}
+/*iZombie*/
+.izombie-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 65%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/izombie1.jpg);
+  background-position: right;
+}
+.izombie-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/izombie2.jpg);
+  background-position: left;
+}
+/*Le Casa de Papel*/
+.money-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 65%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/money1.jpg);
+  background-position: right;
+}
+.money-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/money2.jpg);
+  background-position: left;
+}
+/*Love, Death & Robots*/
+.robots-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 25%,
+      rgba(26, 26, 26, 0.5) 40%,
+      rgba(255, 255, 255, 0) 55%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/lovedeathrobot1.jpg);
+  background-position: right;
+}
+.robots-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/lovedeathrobot2.jpg);
+  background-position: left;
+}
+/*Marvel's Daredevil*/
+.daredevil-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 65%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/daredevil1.jpg);
+  background-position: right;
+}
+.daredevil-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/daredevil2.jpg);
+  background-position: left;
+}
+/*Marvel's Iron Fist*/
+.ironfist-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 65%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/ironfist1.jpeg);
+  background-position: right;
+}
+.ironfist-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/ironfist2.jpg);
+  background-position: left;
+}
+/*Marvel's Jessica Jones*/
+.jessica-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 65%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/jessica1.jpg);
+  background-position: right;
+}
+.jessica-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/jessica2.jpg);
+  background-position: left;
+}
+/*Marvel's Luke Cage*/
+.luke-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 35%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 65%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/lukecage1.jpg);
+  background-position: right;
+}
+.luke-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/lukecage2.png);
+  background-position: left;
+}
+/*Marvel's The Defenders*/
+.defenders-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 55%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/defenders1.png);
+  background-position: right;
+}
+.defenders-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/thedefenders2.jpeg);
+  background-position: left;
+}
+/*Marvel's The Punisher*/
+.punisher-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 55%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/thepunisher1.jpg);
+  background-position: right;
+}
+.punisher-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/thepunisher2.jpg);
+  background-position: left;
+}
+/*Prison Break*/
+.prison-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 55%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/prisonbreak1.jpg);
+  background-position: right;
+}
+.prison-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/priosnbreak2.jpeg);
+  background-position: left;
+}
+/*Rick and Morty*/
+.rick-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 55%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/rickandmoty1.jpg);
+  background-position: right;
+}
+.rick-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/rickandmorty2.jpeg);
+  background-position: left;
+}
+/*Seal Team*/
+.seal-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 55%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/sealteam1.jpg);
+  background-position: right;
+}
+.seal-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/sealteam2.jpg);
+  background-position: left;
+}
+/*Sherlock*/
+.sherlock-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 55%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/sherlock1.jpg);
+  background-position: right;
+}
+.sherlock-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/sherlock2.jpg);
+  background-position: left;
+}
+/*Stranger Things*/
+.stranger-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 55%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/strangerthings01.jpg);
+  background-position: right;
+}
+.stranger-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/strangerthings2.jpg);
+  background-position: left;
+}
+/*The End of the F***ing World*/
+.end-right {
+  background-image: linear-gradient(
+      to right,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 55%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/endofthefuckingworld1.jpg);
+  background-position: right;
+}
+.end-left {
+  background-image: linear-gradient(
+      to left,
+      rgb(26, 26, 26) 0%,
+      rgb(26, 26, 26) 40%,
+      rgba(26, 26, 26, 0.5) 50%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgb(26, 26, 26) 0%,
+      rgba(26, 26, 26, 0.5) 20%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(images/backgrounds/endofthefuckingworld2.webp);
   background-position: left;
 }
 /*Seriály - Název*/
